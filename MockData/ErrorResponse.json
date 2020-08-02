@@ -1,0 +1,41 @@
+{
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_buildingAddress_buildingName": [
+      "test error in buildingName"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_buildingAddress_zipCode": [
+      "test error in buildingName"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_buildingAddress_streetAddress": [
+      "Please enter the Street Address..."
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_buildingAddress_city": [
+      "Please enter the city"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_buildingAddress_buildingDetails": [
+      "test error in buildingDetails"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_buildingAddress_state": [
+      "Please select a State/Territory"
+    ],
+    "root_residentialWarrantyForm_projectDetails_warrantyType": [
+      "Please select a Warranty Type"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_ownerInfo_contactPerson_firstName": [
+      "test error"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_ownerInfo_contactPerson_lastName": [
+      "test error"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_ownerInfo_contactPerson_phoneNumber": [
+      "test error"
+    ],
+    "root_residentialWarrantyForm_buildingAndOwnerInfo_ownerInfo_contactPerson_email": [
+      "test error"
+    ],
+    "root_residentialWarrantyForm_projectDetails_steepSlopeSq": [
+      "test error"
+    ],
+    "root_residentialWarrantyForm_projectDetails_installCost": [
+      "test error"
+    ]
+  }

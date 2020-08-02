@@ -1,0 +1,150 @@
+{
+    "residentialWarrantyForm": {
+        "classNames": "residentialWarrantyForm",
+        "NavigationMenu": {
+            "classNames": "NavigationMenu",
+            "ui:widget": "NavigationMenu"
+        },
+        "buildingAndOwnerInfo": {
+            "classNames": "formContainer",
+            "structureType": {
+                "classNames": "structureType",
+                "ui:widget": "CardList",
+                "ui:options": {
+                    "label": false
+                }
+            },
+            "buildingAddress": {
+                "classNames": "commonFormTemplate",
+                "ui:FieldTemplate": "gaf_container",
+                "ui:order": [
+                    "buildingName",
+                    "country",
+                    "streetAddress",
+                    "city",
+                    "state",
+                    "zipCode",
+                    "buildingDetails"
+                ],
+                "buildingName": {
+                    "ui:widget": "gaf_textbox"
+                },
+                "country": {
+                    "ui:widget": "gaf_dropdown"
+                },
+                "streetAddress": {
+                    "ui:widget": "gaf_textbox"
+                },
+                "city": {
+                    "ui:widget": "gaf_textbox"
+                },
+                "state": {
+                    "ui:widget": "gaf_dropdown",
+                    "classNames": "gaf-dropdown-state"
+                },
+                "zipCode": {
+                    "ui:widget": "gaf_textbox",
+                    "classNames": "gaf-zipCode"
+                },
+                "buildingDetails": {
+                    "ui:widget": "gaf_textbox"
+                }
+            },
+            "ownerInfo": {
+                "classNames": "ownerInfo commonFormTemplate",
+                "ui:FieldTemplate": "gaf_container",
+                "companyName": {
+                    "ui:widget": "gaf_textbox"
+                },
+                "contactPerson": {
+                    "firstName": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "lastName": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "phoneNumber": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "email": {
+                        "ui:widget": "gaf_textbox"
+                    }
+                }
+            },
+            "mailWarrantyInfo": {
+                "classNames": "commonFormTemplate",
+                "ui:FieldTemplate": "gaf_container",
+                "mailWarrantyOption": {
+                    "classNames": "mailWarrantyOption",
+                    "ui:widget": "gaf_radiobtn"
+                },
+                "contactPersonInfo": {
+                    "name": {
+                        "ui:widget": "gaf_dynamiclabel"
+                    },
+                    "country": {
+                        "ui:widget": "gaf_dropdown"
+                    },
+                    "address1": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "address2": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "city": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "state": {
+                        "ui:widget": "gaf_dropdown",
+                        "classNames": "gaf-dropdown-state"
+                    },
+                    "zipCode": {
+                        "ui:widget": "gaf_textbox",
+                        "classNames": "gaf-zipCode"
+                    }
+                }
+            },
+            "additionalContactInfo": {
+                "ui:order": [
+                    "propertyManager",
+                    "addcontactLabel",
+                    "addContactInfo"
+                ],
+                "classNames": "addendumContainer",
+                "ui:options": {
+                    "label": false
+                },
+                "addcontactLabel": {
+                    "ui:widget": "gaf_label",
+                    "classNames": "gaf_label"
+                },
+                "addContactInfo": {
+                    "classNames": "addendum",
+                    "ui:widget": "gaf_addendum"
+                },
+                "propertyManager": {
+                    "classNames": "formLayoutContainer",
+                    "ui:FieldTemplate": "gaf_container",
+                    "propertymanagementcompany": {
+                        "ui:widget": "gaf_textbox"
+                    },
+                    "phone": {
+                        "ui:widget": "gaf_textbox"
+                    }
+                }
+            }
+        },
+        "projectDetails": {
+            "classNames": "formContainer commonFormTemplate",
+            "ui:FieldTemplate": "gaf_container",
+            "WarrantyType": {
+                "ui:widget": "gaf_dropdown",
+                "classNames": "gaf_dropdown"
+            },
+            "dateOfInstallation": {
+                "classNames": "gaf-datepicker",
+                "ui:widget": "gaf_datePicker"
+            }
+        }
+    }
+}
